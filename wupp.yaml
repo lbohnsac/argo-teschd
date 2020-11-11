@@ -1,0 +1,15 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: teschd-route
+spec:
+  host: xxx.apps.ocp.bohnsack-it.de
+  port:
+    targetPort: http
+  tls:
+    termination: edge
+  to:
+    kind: Service
+    name: argo-server
+    weight: 100
+  wildcardPolicy: None
