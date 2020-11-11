@@ -4,4 +4,4 @@ data:
   value.check: 123test
 kind: ConfigMap
 metadata:
-  name: test
+  name: test12
