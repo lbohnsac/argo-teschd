@@ -1,5 +1,4 @@
 apiVersion: v1
 data:
-  special.how: very
-  special.type: charm
+  value: test
 kind: ConfigMap
