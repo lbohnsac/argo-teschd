@@ -1,7 +1,7 @@
 apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test123
 data:
   value: test123
   value.check: 123test
-kind: ConfigMap
-metadata:
-  name: test12
