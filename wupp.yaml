@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: teschd-route
 spec:
-  host: xx.apps.ocp.bohnsack-it.de
+  host: xxx.apps.ocp.bohnsack-it.de
   port:
     targetPort: http
   tls:
