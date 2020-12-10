@@ -3,6 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: test
+  namespace: lars1/test
 data:
   value.check: martin
 ...
